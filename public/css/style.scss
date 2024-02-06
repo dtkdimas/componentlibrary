@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@500;800&display=swap');
+body{
+    background: #EEEEFA;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 34.5%, rgba(0, 0, 0, 0.00) 100%), url(../img/bg-navbar.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .mycontainer{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        h1{
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        p{
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+}
+
+#content{
+    .mycontainer{
+        .sticky-top{
+            top: 32px;
+        }
+        #iframe_codepen{
+            border-radius: 8px;
+        }
+    }
+}
+
+.footer{
+    background: linear-gradient(270deg, #9747FF 9.2%, #6F00FF 88.03%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .mycontainer{
+        span{
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 0;
+            line-height: normal;
+        }
+    }
+}
