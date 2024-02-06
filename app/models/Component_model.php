@@ -25,7 +25,7 @@ class Component_model{
             "nama_component" => "Navbar with Login Button",
             "iframe_codepen" => "link"
         ]
-    ]
+    ];
 
     public function getTahun(){
         return $this->tahun;
